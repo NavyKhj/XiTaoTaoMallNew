@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fixed_bottom_navigation_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/normal_divider_line" />
+
+    <FrameLayout
+        android:id="@+id/fixed_bottom_navigation_icon_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/fixed_bottom_navigation_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:scaleType="centerInside" />
+
+        <com.coorchice.library.SuperTextView
+            android:id="@+id/fixed_bottom_navigation_un_read"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/normal_main_button_text_color"
+            android:visibility="gone" />
+
+        <com.coorchice.library.SuperTextView
+            android:id="@+id/view_un_read"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/normal_main_button_text_color"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/fixed_bottom_navigation_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:lines="1"
+        android:text="10dp" />
+
+</RelativeLayout>

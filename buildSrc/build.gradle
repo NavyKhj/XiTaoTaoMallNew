@@ -1,0 +1,15 @@
+apply plugin: 'groovy'
+
+dependencies {
+    implementation gradleApi()//gradle sdk
+    implementation localGroovy()//groovy sdk
+    //noinspection GradleDependency
+    implementation 'com.android.tools.build:gradle:3.1.2'
+    implementation 'org.aspectj:aspectjtools:1.8.13'
+    implementation 'org.aspectj:aspectjrt:1.8.13'
+}
+
+repositories {
+    google()
+    jcenter()
+}

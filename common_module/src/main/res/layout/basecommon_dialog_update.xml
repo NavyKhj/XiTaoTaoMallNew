@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="end"
+        android:layout_marginBottom="16dp"
+        android:src="@mipmap/update_close_icon" />
+
+    <ImageView
+        android:id="@+id/iv_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/normal_content_background_color"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="5"
+            android:textColor="@color/normal_title_font_color"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_mark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="14dp"
+            android:gravity="center"
+            android:maxLines="5"
+            android:paddingStart="16dp"
+            android:paddingTop="13dp"
+            android:scrollbars="vertical"
+            android:textColor="@color/normal_body_font_color"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:id="@+id/rl_update"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:background="@color/normal_content_background_color"
+            android:visibility="visible">
+
+            <com.coorchice.library.SuperTextView
+                android:id="@id/versionchecklib_version_dialog_commit"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="18dp"
+                android:layout_marginEnd="18dp"
+                android:gravity="center"
+                android:textColor="@color/normal_content_background_color"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                app:stv_corner="24dp"
+                app:stv_pressBgColor="@color/bank_btn_press"
+                app:stv_solid="@color/bank_btn_noraml" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

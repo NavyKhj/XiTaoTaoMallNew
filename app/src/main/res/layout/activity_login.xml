@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/login_register_bg"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="30dp"
+            android:src="@mipmap/back_icon" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="134dp"
+                android:src="@mipmap/login_logo" />
+
+
+            <com.shangcheng.common_module.widget.ClearEditText
+                android:id="@+id/et_login_user"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="33dp"
+                android:layout_marginEnd="44dp"
+                android:background="@drawable/shape_login_register_edittext_bg"
+                android:digits="0123456789"
+                android:hint="请输入手机号"
+                android:imeOptions="actionNext"
+                android:inputType="phone"
+                android:maxLength="11"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:singleLine="true"
+                android:textColor="@color/normal_body_font_color"
+                android:textColorHint="@color/normal_forbid_font_color"
+                android:textSize="13dp" />
+
+
+            <com.shangcheng.common_module.widget.ClearEditText
+                android:id="@+id/et_login_password"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="44dp"
+                android:background="@drawable/shape_login_register_edittext_bg"
+                android:hint="请输入密码"
+                android:imeOptions="actionGo"
+                android:inputType="textPassword"
+                android:maxLength="18"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:singleLine="true"
+                android:textColor="@color/normal_body_font_color"
+                android:textColorHint="@color/normal_forbid_font_color"
+                android:textSize="13dp" />
+
+
+            <Button
+                android:id="@+id/login_register"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="44dp"
+                android:background="@drawable/shape_login_register_btn_bg"
+                android:text="密码登录"
+                android:textColor="@color/white_color" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>

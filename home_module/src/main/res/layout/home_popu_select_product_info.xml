@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="375dp"
+    android:layout_height="wrap_content"
+    android:background="@color/normal_content_background_color"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ll_top"
+            >
+
+        <ImageView
+            android:id="@+id/iv_popu_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:padding="12dp"
+            android:src="@mipmap/ic_close" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp">
+
+            <ImageView
+                android:id="@+id/iv_popu_pic"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                android:layout_marginRight="8dp"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/tv_popu_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/iv_popu_pic"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:lines="2"
+                android:textColor="@color/normal_body_font_color"
+                android:textSize="12dp"
+                android:layout_marginRight="12dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_popu_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_popu_title"
+                android:layout_marginTop="4dp"
+                android:layout_toRightOf="@+id/iv_popu_pic"
+                android:textColor="@color/bank_btn_noraml"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/tv_popu_quan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_popu_title"
+                android:layout_marginTop="7dp"
+                android:layout_toRightOf="@+id/tv_popu_price"
+                android:layout_marginLeft="4dp"
+                android:textColor="@color/bank_btn_noraml"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/tv_popu_mall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/iv_popu_pic"
+                android:textColor="@color/normal_assistant_font_color_shallow"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/tv_popu_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="16dp"
+                android:layout_toRightOf="@+id/tv_popu_mall"
+                android:textColor="@color/normal_assistant_font_color_shallow"
+                android:textSize="10dp" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:visibility="gone"
+            >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="可用余额：¥9999999.99"
+            android:textColor="@color/normal_body_font_color"
+            android:textSize="12dp"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/tv_all_price"
+            android:drawableLeft="@drawable/shape_red_circle"
+            android:drawablePadding="2dp"
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="可用淘券：9999999.99"
+                android:textColor="@color/normal_body_font_color"
+                android:textSize="12dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/tv_all_quan"
+                android:layout_marginLeft="40dp"
+                android:drawableLeft="@drawable/shape_red_circle"
+                android:drawablePadding="2dp"
+                />
+            <TextView
+                android:drawableLeft="@drawable/shape_red_circle"
+                android:drawablePadding="2dp"
+                android:visibility="gone"
+                android:layout_marginLeft="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="可用积分：9999999.99"
+                android:textColor="@color/normal_body_font_color"
+                android:textSize="12dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/tv_all_soure"
+
+                />
+        </LinearLayout>
+
+
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView
+            android:layout_marginTop="8dp"
+            android:layout_above="@+id/rl_edit"
+            android:layout_alignParentTop="true"
+            android:id="@+id/popu_select_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"/>
+        <RelativeLayout
+            android:layout_marginBottom="60dp"
+            android:id="@+id/rl_edit"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/normal_content_background_color"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/normal_body_font_color"
+            android:textSize="12dp"
+            android:id="@+id/tv_popu_hint"
+            android:text="购买数量"
+            />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="10dp"
+             android:layout_centerVertical="true"
+             android:textColor="@color/normal_assistant_font_color_shallow"
+             android:text="此商品每人限购10件"
+             android:layout_marginLeft="10dp"
+             android:layout_toRightOf="@+id/tv_popu_hint"
+             android:id="@+id/tv_popu_buy_num"
+             />
+            <RelativeLayout
+                android:layout_width="36dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:id="@+id/rl_add"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@mipmap/add_enable"
+                    android:id="@+id/iv_add"
+                    />
+            </RelativeLayout>
+
+            <EditText
+                android:layout_toLeftOf="@+id/rl_add"
+                android:layout_centerVertical="true"
+                android:id="@+id/et_num"
+                android:layout_width="60dp"
+                android:layout_height="32dp"
+                android:digits="0123456789"
+                android:inputType="phone"
+                android:textSize="12dp"
+                android:gravity="center"
+                android:text="1"
+                android:singleLine="true"
+                android:background="#fff4f4f4"
+                android:textColor="@color/normal_body_font_color"
+                android:textColorHint="@color/normal_body_font_color" />
+        <RelativeLayout
+            android:layout_width="36dp"
+            android:layout_height="match_parent"
+            android:id="@+id/rl_reduce"
+            android:layout_toLeftOf="@+id/et_num"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/reduce_enable"
+                android:id="@+id/iv_reduce"
+                />
+        </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/rl_bottom"
+
+            >
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:id="@+id/ll_phone"
+                android:orientation="vertical"
+                android:background="@color/normal_content_background_color"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/service_icon"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="8dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/normal_body_font_color"
+                    android:textSize="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="联系客服"
+                    android:layout_marginTop="2dp"
+                    />
+            </LinearLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/ll_phone"
+                android:textSize="16dp"
+                android:textColor="@color/normal_content_background_color"
+                android:gravity="center"
+                android:background="@color/bank_btn_noraml"
+                android:text="立即购买"
+                android:id="@+id/btn_buy"
+                />
+        </RelativeLayout>
+
+</LinearLayout>
+</layout>

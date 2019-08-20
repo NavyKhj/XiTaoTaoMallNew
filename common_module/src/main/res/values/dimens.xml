@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 底部栏相关大小 -->
+    <dimen name="bottom_navigation_elevation">8dp</dimen>
+    <dimen name="bottom_navigation_height">56dp</dimen>
+    <dimen name="bottom_navigation_padded_height">64dp</dimen>
+    <dimen name="bottom_navigation_top_margin_correction">-8dp</dimen><!-- 64 - 56 = 8 -->
+    <dimen name="fixed_min_width">120dp</dimen>
+    <dimen name="fixed_min_width_small_views">104dp</dimen>
+    <dimen name="fixed_max_width">168dp</dimen>
+    <dimen name="fixed_width_padding">12dp</dimen>
+
+    <dimen name="fixed_height">56dp</dimen>
+    <dimen name="fixed_height_top_padding_inactive">2dp
+    </dimen><!-- 8(Top Padding) - 12/2(extra padding due to badges) = 2 -->
+    <dimen name="fixed_height_top_padding_active">0dp
+    </dimen><!-- 6(Top Padding) - 12/2(extra padding due to badges) = 0 -->
+    <dimen name="fixed_height_bottom_padding">10dp</dimen>
+
+
+    <dimen name="shifting_min_width_active">96dp</dimen>
+    <dimen name="shifting_max_width_active">168dp</dimen>
+    <dimen name="shifting_min_width_inactive">64dp</dimen>
+    <dimen name="shifting_max_width_inactive">96dp</dimen>
+
+</resources>

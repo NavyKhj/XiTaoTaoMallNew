@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/ll_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/fl_photo"
+                android:layout_width="172dp"
+                android:layout_height="172dp">
+
+                <ImageView
+                    android:id="@+id/iv_photo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_sellout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.6"
+                    android:background="@color/normal_content_background_color"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/iv_sellout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:src="@mipmap/sellout_icon" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/iv_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|right"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:src="@mipmap/soure_type_icon"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_mark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|left"
+                    android:layout_marginStart="1dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:textColor="@color/normal_content_background_color"
+                    android:textSize="10sp" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:ellipsize="end"
+                android:lines="2"
+                android:textColor="@color/normal_body_font_color"
+                android:textSize="12sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="8dp">
+
+                <TextView
+                    android:id="@+id/tv_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/bank_btn_noraml"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_quan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toEndOf="@+id/tv_price"
+                    android:textColor="@color/bank_btn_noraml"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/tv_old_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toEndOf="@+id/tv_quan"
+                    android:textColor="@color/normal_assistant_font_color_shallow"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_sell_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/normal_assistant_font_color_shallow"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:visibility="gone"/>
+    </LinearLayout>
+</layout>

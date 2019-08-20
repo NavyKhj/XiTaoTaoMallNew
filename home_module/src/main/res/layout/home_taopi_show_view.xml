@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/rl_taopi_frist"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/iv_taopi_frist"
+            android:layout_width="104dp"
+            android:layout_height="104dp"
+            android:src="@mipmap/bc_ic_placeholder_middle" />
+
+        <TextView
+            android:id="@+id/tv_zhe_frist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="84dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="1dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="1dp"
+            android:textColor="@color/normal_content_background_color"
+            android:textSize="10sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_taopi_price_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_taopi_frist"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="@color/bank_btn_noraml"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_taopi_num_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_taopi_price_first"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:textColor="@color/normal_assistant_font_color_shallow"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="12dp"
+        android:layout_height="match_parent" />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_taopi_second"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/iv_taopi_second"
+            android:layout_width="104dp"
+            android:layout_height="104dp"
+            android:src="@mipmap/bc_ic_placeholder_middle" />
+
+        <TextView
+            android:id="@+id/tv_zhe_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="84dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="1dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="1dp"
+            android:textColor="@color/normal_content_background_color"
+            android:textSize="10sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_taopi_price_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_taopi_second"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="@color/bank_btn_noraml"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_taopi_num_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_taopi_price_second"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:textColor="@color/normal_assistant_font_color_shallow"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="12dp"
+        android:layout_height="match_parent" />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_taopi_three"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/iv_taopi_three"
+            android:layout_width="104dp"
+            android:layout_height="104dp"
+            android:src="@mipmap/bc_ic_placeholder_middle" />
+
+        <TextView
+            android:id="@+id/tv_zhe_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="84dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="1dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="1dp"
+            android:textColor="@color/normal_content_background_color"
+            android:textSize="10sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_taopi_price_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_taopi_three"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="@color/bank_btn_noraml"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_taopi_num_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_taopi_price_three"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:textColor="@color/normal_assistant_font_color_shallow"
+            android:textSize="10sp" />
+    </RelativeLayout>
+</LinearLayout>

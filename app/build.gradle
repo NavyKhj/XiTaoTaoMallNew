@@ -1,0 +1,68 @@
+apply plugin: 'com.android.application'
+apply plugin: com.shangcheng.plugins.AopPlugin
+android {
+    compileSdkVersion COMPILE_SDK_VERSION as int
+    buildToolsVersion BUILD_TOOLS_VERSION
+    defaultConfig {
+        applicationId APP_ID
+        minSdkVersion MIN_SDK_VERSION as int
+        targetSdkVersion TARGET_SDK_VERSION as int
+        versionCode VERSION_CODE as int
+        versionName VERSION_NAME
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    //编译签名文件配置
+    signingConfigs {
+        config {
+            keyAlias KEY_ALIAS
+            keyPassword KEY_PASSWORD
+            storeFile file(KEY_FILE_PATH)
+            storePassword KEY_STORE_PASSWORD
+        }
+    }
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.config
+            buildConfigField "String", "PROJECT_ID", "\"${PROJECT_ID}\""
+            buildConfigField "boolean", "NEED_LEAD", "${NEED_LEAD}"
+            buildConfigField("String", "UMENG_APPKEY", "\"${UMENG_APPKEY}\"")
+            buildConfigField("String", "UMENG_MESSAGE_SECRET", "\"${UMENG_MESSAGE_SECRET}\"")
+            buildConfigField("String", "UMENG_CHANNEL", "\"${UMENG_CHANNEL}\"")
+            //混淆
+//            minifyEnabled enableProguardInReleaseBuilds
+//            proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+        }
+        release {
+            signingConfig signingConfigs.config
+            buildConfigField "String", "PROJECT_ID", "\"${PROJECT_ID}\""
+            buildConfigField "boolean", "NEED_LEAD", "${NEED_LEAD}"
+            buildConfigField("String", "UMENG_APPKEY", "\"${UMENG_APPKEY}\"")
+            buildConfigField("String", "UMENG_MESSAGE_SECRET", "\"${UMENG_MESSAGE_SECRET}\"")
+            buildConfigField("String", "UMENG_CHANNEL", "\"${UMENG_CHANNEL}\"")
+            //混淆
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+        }
+    }
+    configurations.all {
+        resolutionStrategy.force 'com.google.code.findbugs:jsr305:1.3.9'
+    }
+    dataBinding{
+        enabled true
+    }
+}
+repositories {
+    flatDir {
+        dirs 'libs', '../common_module/libs'
+    }
+}
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "com.android.support:appcompat-v7:${SUPPORT_LIBRARY}"
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation project(path: ':common_module')
+    implementation project(path: ':home_module')
+}

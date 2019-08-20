@@ -1,0 +1,17 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minWidth="60dp"
+            android:minHeight="32dp"
+            android:textColor="@color/normal_body_font_color"
+            android:textSize="12sp"/>
+    </LinearLayout>
+</layout>

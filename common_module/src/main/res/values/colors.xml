@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--&lt;!&ndash; 透明色 &ndash;&gt;-->
+    <!--<color name="transparent_color">#00000000</color>-->
+    <!--<color name="alpha30_black_color">#50000000</color>-->
+    <!--&lt;!&ndash; －－－－－－－－－－－－－－－普通模式－－－－－－－－－－－－－－－－－－－&ndash;&gt;-->
+
+    <!--&lt;!&ndash; 背景颜色 &ndash;&gt;-->
+    <!--<color name="bg_color">#f0f0f0</color>-->
+
+    <!--&lt;!&ndash; 白色 &ndash;&gt;-->
+    <!--<color name="white_color">#ffffff</color>-->
+
+    <!--&lt;!&ndash; 背景颜色1 &ndash;&gt;-->
+    <!--<color name="bg_color1">#f9f9f9</color>-->
+
+    <!--&lt;!&ndash; 背景颜色2 &ndash;&gt;-->
+    <!--<color name="bg_color2">#f7f7f7</color>-->
+
+    <!--&lt;!&ndash; 分割线的颜色 &ndash;&gt;-->
+    <!--<color name="split_color">#b2b2b2</color>-->
+
+    <!--&lt;!&ndash; 浅色字体颜色 &ndash;&gt;-->
+    <!--<color name="font_color_tint">#666666</color>-->
+
+    <!--&lt;!&ndash; 提示字体颜色 &ndash;&gt;-->
+    <!--<color name="font_color_hint">#999999</color>-->
+
+    <!--&lt;!&ndash; title背景颜色 &ndash;&gt;-->
+    <!--<color name="title_background">#FFFFFF</color>-->
+
+    <!--&lt;!&ndash; 绿色字体颜色 &ndash;&gt;-->
+    <!--<color name="text_font_green">#34b431</color>-->
+
+    <!--&lt;!&ndash; 红色字体颜色 &ndash;&gt;-->
+    <!--<color name="text_font_red">#d6808e</color>-->
+
+    <!--&lt;!&ndash; title字体颜色 &ndash;&gt;-->
+    <!--<color name="title_btn_click">#66000000</color>-->
+
+    <!--&lt;!&ndash; title字体颜色 &ndash;&gt;-->
+    <!--<color name="title_font">#000000</color>-->
+
+    <!--&lt;!&ndash; 字体颜色 &ndash;&gt;-->
+    <!--<color name="text_font">#111111</color>-->
+
+    <!--&lt;!&ndash; 默认颜色 &ndash;&gt;-->
+    <!--<color name="list_view_default_color">#ffffff</color>-->
+
+    <!--&lt;!&ndash; listView 按下颜色 &ndash;&gt;-->
+    <!--<color name="list_view_pressed_color">#dbdbdb</color>-->
+
+    <!--<color name="black_color">#000000</color>-->
+
+    <!--<color name="color_c4c4c4">#c4c4c4</color>-->
+
+    <!--&lt;!&ndash; 按钮红色 &ndash;&gt;-->
+    <!--<color name="bc_inputedit_red_color">#e42229</color>-->
+
+    <!--&lt;!&ndash; 按钮按下红色 &ndash;&gt;-->
+    <!--<color name="bc_inputedit_red_press_color">#ae0000</color>-->
+
+    <!--&lt;!&ndash; －－－－－－－－－－－－－－－夜间模式－－－－－－－－－－－－－－－－－－－&ndash;&gt;-->
+    <!--&lt;!&ndash; 深色字体颜色 &ndash;&gt;-->
+    <!--<color name="font_color_deep">#333333</color>-->
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <!--permissionDialog-->
+    <color name="color_dialog_title">#303030</color>
+    <color name="color_dialog_content_prompt">#343434</color>
+    <color name="color_dialog_gray">#ededf3</color>
+    <color name="color_type_info">#79b3e4</color>
+    <color name="color_type_help">#e8bd4b</color>
+    <color name="color_type_wrong">#ed7861</color>
+    <color name="color_type_warning">#e8bd4b</color>
+    <color name="color_type_success">#90b06e</color>
+
+    <!-- 新规范 正常模式  以normal开头-->
+    <!--等级背景色-->
+    <color name="normal_level_bg">#ffe0dc</color>
+    <!--状态栏颜色-->
+    <color name="normal_status_bar_color">#b2b2b2</color>
+    <!-- 筛选背景颜色-->
+    <color name="normal_select_mark_color">#f1f3f6</color>
+    <!--字体颜色（#666666）-->
+    <color name="normal_font_color_tint">#666666</color>
+    <!--透明色-->
+    <color name="transparent_color">#00000000</color>
+    <!-- 内容背景色 -->
+    <color name="normal_content_background_color">#ffffff</color>
+    <!--主色调-->
+    <color name="normal_main_color">#e71e1e</color>
+    <!--深背景色-->
+    <color name="normal_bg_color_deep">#eeeeee</color>
+    <!--浅背景色-->
+        <color name="normal_bg_color_shallow">#f6f6f6</color>
+    <!--分割线深颜色-->
+    <color name="normal_divider_deep_line">#cccccc</color>
+    <!--分割线颜色-->
+    <color name="normal_divider_line">#eeeeee</color>
+    <!--禁用字体颜色 或者hint字体色-->
+    <color name="normal_forbid_font_color">#d6d6d6</color>
+    <!--辅助深色字体颜色-->
+    <color name="normal_assistant_font_color_deep">#757575</color>
+    <!--辅助浅色字体颜色-->
+    <color name="normal_assistant_font_color_shallow">#999999</color>
+    <!--辅助特殊字体颜色-->
+    <color name="normal_assistant_font_color_special">#0e83d8</color>
+    <!--正文字体颜色-->
+    <color name="normal_body_font_color">#333333</color>
+    <!--标题或按钮字体颜色-->
+    <color name="normal_title_font_color">#111111</color>
+
+    <!--button背景主色-->
+    <color name="normal_button_color_main">#e71e1e</color>
+    <!--button背景主色按下-->
+    <color name="normal_button_color_main_press">#d11212</color>
+    <!--button背景黄色-->
+    <color name="normal_button_color_yellow">#ff7c25</color>
+    <!--button背景黄色按下-->
+    <color name="normal_button_color_yellow_press">#e96811</color>
+    <!--button背景蓝色-->
+    <color name="normal_button_color_blue">#0e83d8</color>
+    <!--button背景蓝色按下-->
+    <color name="normal_button_color_blue_press">#0a76c4</color>
+    <!--button主色调禁用背景色-->
+    <color name="normal_main_forbid_button_color">#f39898</color>
+    <!--辅助按钮背景色-->
+    <color name="normal_assistant_button_color">#f7f7f7</color>
+    <!--辅助按钮背景色按下-->
+    <color name="normal_assistant_button_color_press">#e8e8e8</color>
+    <!--辅助按钮背景禁用背景色-->
+    <color name="normal_assistant_forbid_button_color">#eeeeee</color>
+    <!--主色调按钮 字体颜色-->
+    <color name="normal_main_button_text_color">#ffffff</color>
+    <!--透明背景-->
+    <color name="normal_alpha20_black_color">#4d000000</color>
+    <color name="normal_alpha30_black_color">#50000000</color>
+    <color name="normal_alpha50_black_color">#80000000</color>
+    <color name="normal_alpha92_black_color">#ea000000</color>
+    <!-- 补签页面-->
+    <color name="normal_sign_in_text_color">#f5de21</color>
+    <color name="normal_bc_input_edit_red_color">#e42229</color>
+    <color name="normal_sign_in_title">#b02f17</color>
+    <!--排行 1-->
+    <color name="normal_rank_first">#fe401a</color>
+    <!--排行 2-->
+    <color name="normal_rank_second">#fe611a</color>
+    <!--排行 3和其他-->
+    <color name="normal_rank_third">#fe801a</color>
+    <!-- 纯黑色背景 -->
+    <color name="black_background">#000000</color>
+    <!-- 注册背景粉色-->
+    <color name="normal_set_top_color">#ffe3e3</color>
+    <color name="normal_login_status_color">#fff6f3</color>
+    <color name="normal_register_dsline_color">#ffd9cc</color>
+    <!--评分星星颜色 -->
+    <color name="normal_bg_star">#dddddd</color>
+    <!--换肤未读颜色 -->
+    <color name="normal_un_read">#fbd819</color>
+    <!--头像字体背景色 -->
+    <color name="normal_head_background">#fe7b49</color>
+
+    <!-- 竞答相关色调 -->
+    <color name="normal_answer_main_color">#f04726</color>
+    <color name="normal_answer_divider_color">#63b7f8</color>
+    <color name="normal_answer_divider_wrong_color">#fd5e3a</color>
+    <color name="normal_answer_bg_color">#f2faff</color>
+    <color name="normal_answer_bg_wrong_color">#fff4f1</color>
+
+    <color name="normal_study_score_font_color">#ffe360</color>
+
+    <color name="normal_font_color_hint">#fdc1b7</color>
+    <color name="discovery_pay_home_bottom_txt_color">#6d4a30</color>
+
+
+    <color name="normal_rank_color_hint">#ffbaa8</color>
+    <color name="normal_rank_color_yellow">#ffcc3e</color>
+
+    <color name="organization_title_color">#222222</color>
+    <color name="organization_red_color">#f1413a</color>
+
+    <color name="normal_data_rank_first">#f13d3d</color>
+    <color name="normal_data_rank_second">#f36d3d</color>
+    <color name="normal_data_rank_third">#f5bb43</color>
+    <color name="normal_data_my_task">#e61816</color>
+
+    <color name="normal_webrtc_receive_call_bg">#181d23</color>
+    <color name="normal_webrtc_green_dot_bg">#07cb71</color>
+    <color name="normal_webrtc_connect_bg">#99242322</color>
+    <color name="normal_webrtc_alpha50_black_color">#d8000000</color>
+    <color name="normal_webrtc_wh_txt">#f97040</color>
+
+    <!---->
+    <!---->
+    <!--&lt;!&ndash;签到结果 签到天数 字体颜色&ndash;&gt;-->
+    <!--<color name="normal_signin_result_num_color">#ff783c</color>-->
+    <!--&lt;!&ndash;图片放大背景色&ndash;&gt;-->
+    <!--<color name="normal_zoom_background_color">#1e1e1e</color>-->
+
+
+    <!--&lt;!&ndash; im无网络提示背景色 &ndash;&gt;-->
+    <!--<color name="normal_im_nonet_bg">#fde1dd</color>-->
+    <!--&lt;!&ndash; im无网络字体色 &ndash;&gt;-->
+    <!--<color name="normal_im_nonet_text_color">#817372</color>-->
+
+    <!--&lt;!&ndash; 扫码颜色 &ndash;&gt;-->
+    <!--<color name="viewfinder_mask">#99000000</color>-->
+    <!--<color name="result_view">#b0000000</color>-->
+    <!--<color name="possible_result_points">#c0ffbd21</color>-->
+    <!--<color name="capture_text_cover_bg">#99535353</color>-->
+    <!--&lt;!&ndash;签到 &ndash;&gt;-->
+    <!--<color name="normal_signin_text_color">#f5de21</color>-->
+    <!--<color name="im_status_color">#bbbbbb</color>-->
+    <!--<color name="im_status_bg_color">#fffaf4</color>-->
+    <!--<color name="im_task_setting_color">#ffe9db</color>-->
+    <!--<color name="im_search_bg_color">#f4f4f4</color>-->
+    <!--<color name="im_search_top_bg_color">#fafafa</color>-->
+
+    <!--&lt;!&ndash;im弹出框（复制）背景色 &ndash;&gt;-->
+    <color name="im_copy_pop_color">#19181a</color>
+    <color name="im_divider_color">#ffceba</color>
+    <!--<color name="im_group_chat_add_member_bg">#262526</color>-->
+    <!--<color name="im_timestamp_bg">#cecece</color>-->
+    <!--<color name="im_voice_len_text_color">#9a9a9a</color>-->
+    <!--<color name="im_group_chat_choose_title_bg">#1a191e</color>-->
+    <!--<color name="im_group_chat_choose_title_right_txt">#80ff703e</color>-->
+    <!--<color name="im_group_chat_choose_search_bg">#343235</color>-->
+    <!--<color name="im_group_chat_choose_search_txt">#777777</color>-->
+    <!--<color name="im_group_chat_choose_item_txt">#cccccc</color>-->
+
+    <!--&lt;!&ndash;button背景主色渐变色&ndash;&gt;-->
+    <!--<color name="normal_button_color_main_gradient">#e74d1e</color>-->
+
+    <!-- 新规范 夜间模式  以night开头-->
+    <color name="im_status_color">#bbbbbb</color>
+    <!--im_群语音聊天选择联系人背景色-->
+    <color name="normal_im_group_chat_add_member_bg">#d6d6d6</color>
+    <!--im_群语音聊天选择联系人title颜色-->
+    <color name="normal_im_group_chat_choose_title_bg">#4B4F59</color>
+    <!--im_群语音聊天选择联系人确定按钮颜色-->
+    <color name="normal_im_group_chat_choose_title_right_txt">#a84c2f</color>
+    <!--im_群语音聊天选择联系人搜索背景颜色-->
+    <color name="normal_im_group_chat_choose_search_bg">#343235</color>
+    <!--im_群语音聊天选择联系人搜索字体颜色-->
+    <color name="normal_im_group_chat_choose_search_txt">#777777</color>
+    <!--im无网络提示背景色-->
+    <color name="normal_im_nonet_bg">#fde1dd</color>
+    <!--im无网络字体色-->
+    <color name="normal_im_nonet_text_color">#817372</color>
+    <!--im搜索栏背景色-->
+    <color name="normal_im_search_bg_color">#f4f4f4</color>
+    <!--im聊天内容字体颜色-->
+    <color name="normal_im_chat_text_color">#000000</color>
+    <!--im输入框背景色-->
+    <color name="normal_im_input_bg_color">#fafafa</color>
+    <!--im群聊选择联系人字体色-->
+    <color name="normal_im_group_chat_choose_item_txt">#cccccc</color>
+    <!--im语音长度字体颜色-->
+    <color name="normal_im_voice_len_text_color">#9a9a9a</color>
+    <!--im创建专属工作群背景色-->
+    <color name="normal_im_creat_bg">#ffeee7</color>
+    <!--im群任务设置发布人群主背景色-->
+    <color name="normal_im_task_setting_color">#ffe9db</color>
+    <!--im聊天界面时间背景色-->
+    <color name="normal_im_timestamp_bg">#cecece</color>
+
+
+    <!--                                       城市综治                                    -->
+    <color name="white_color">#ffffff</color>
+    <color name="tab_img_normal_color">#808080</color>
+    <!-- 下拉刷新颜色 -->
+    <color name="pull_down_refresh1">#fdce03</color>
+    <color name="pull_down_refresh2">#f79c0b</color>
+    <color name="pull_down_refresh3">#ee5518</color>
+    <color name="pull_down_refresh4">#e82221</color>
+    <color name="listview_pressed_color">#dbdbdb</color>
+    <!-- 分割线的颜色 -->
+    <color name="split_color">#b2b2b2</color>
+    <color name="black_color">#000000</color>
+    <color name="friend_circle_popupwindow_color">#353b3d</color>
+    <!-- 深色字体颜色 -->
+    <color name="font_color_deep">#333333</color>
+    <!-- 提示字体颜色 -->
+    <color name="font_color_hint">#999999</color>
+    <!-- 警示颜色-Dialog字体 -->
+    <color name="warning_color">#ff2b25</color>
+    <color name="bg_color">#f0f0f0</color>
+    <color name="color_27ad40">#27ad40</color>
+    <color name="color_ff7e00">#ff7e00</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="indicator_color">#ff33b5e5</color>
+    <color name="friend_circle_name_color">#4b6491</color>
+    <!-- 默认颜色 -->
+    <color name="default_color">#ffffff</color>
+    <!-- 按下颜色 -->
+    <color name="pressed_color">#f6f6f6</color>
+    <!-- 浅色分割线的颜色 -->
+    <color name="split_tint_color">#dddddd</color>
+    <color name="color_888888">#888888</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_f85964">#f85964</color>
+    <color name="border_color_default">#b3b3b3</color>
+    <color name="font_color_blue">#2b88e7</color>
+    <color name="friend_circle_bg_color">#ebebeb</color>
+    <color name="main_icon_bg_color2">#fdab19</color>
+    <color name="color_aaaaaa">#aaaaaa</color>
+    <color name="round_corner_3">#ee734d</color>
+    <color name="primary">#F44336</color>
+
+    <color name="cmb_start">#FFB199</color>
+    <color name="cmb_end">#E54A70</color>
+    <color name="bjbank_start">#F67B7B</color>
+    <color name="bjbank_end">#CB414C</color>
+    <color name="boc_start">#FFE56C</color>
+    <color name="boc_end">#E87427</color>
+    <color name="ccb_start">#8AAFE5</color>
+    <color name="ccb_end">#536FD4</color>
+    <color name="psbc_start">#B6EF95</color>
+    <color name="psbc_end">#2F9E66</color>
+    <color name="abc_start">#5CD1AC</color>
+    <color name="abc_end">#008B9C</color>
+    <color name="bank_btn_noraml">#E04655</color>
+    <color name="bank_btn_press">#b0E04655</color>
+    <color name="bank_btn_transparent">#a0E04655</color>
+    <color name="home_top">#FF666B</color>
+    <color name="home_mark">#7F7F7F</color>
+    <color name="home_mark_transparent">#fff4f4f4</color>
+    <color name="home_product">#fffeeced</color>
+    <color name="white_transparent">#b0ffffff</color>
+    <color name="black_transparent">#ff000000</color>
+    <color name="mark_transparent">#ff999999</color>
+    <color name="mark_blue">#60A0EF</color>
+    <color name="profit_top_start">#D91325</color>
+    <color name="profit_top_end">#FF8579</color>
+    <color name="profit_line">#f8f8f8</color>
+    <color name="putao_bg_start">#4BCBE8</color>
+    <color name="putao_bg_end">#7AA6F7</color>
+    <color name="soure_bg_start">#EF40A8</color>
+    <color name="soure_bg_end">#FD7583</color>
+    <color name="taotao_bg_start">#6440F0</color>
+    <color name="taotao_bg_end">#D374FE</color>
+    <color name="taopi_bg_start">#FF666B</color>
+    <color name="taopi_bg_end">#DF0015</color>
+    <color name="orderdetail_top_bg_start">#FF666B</color>
+    <color name="orderdetail_top_bg_end">#DF0015</color>
+    <color name="refresh_top_bg">#f5f5f5</color>
+    <color name="refresh_top_start">#B6EFFF</color>
+    <color name="refresh_top_end">#FFFFFF</color>
+    <color name="shetao_bg_start">#444343</color>
+    <color name="shetao_bg_end">#333333</color>
+    <color name="verify_btn_color_checked">#FF666B</color>
+    <color name="verify_btn_color_normal">#ffdf0015</color>
+    <color name="agreement_font_color">#60A0EF</color>
+</resources>
